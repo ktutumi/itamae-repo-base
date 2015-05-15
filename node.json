@@ -1,6 +1,11 @@
 {
   "role": "web",
   "php": {
-    "display_errors": "On"
+    "additional_packages": [
+      "php-pecl-xdebug"
+    ],
+    "directives": {
+      "display_errors": "On"
+    }
   }
 }
