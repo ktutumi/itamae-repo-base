@@ -1,3 +1,6 @@
 {
-  "role": "web"
+  "role": "web",
+  "php": {
+    "display_errors": "On"
+  }
 }
